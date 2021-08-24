@@ -12,6 +12,9 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  header: {
+    logo: 'cat',
+  },
 };
 
 export const pageContents = {
@@ -22,7 +25,7 @@ export const pageContents = {
 export const listData = {
   title: 'Things to do <sup>soon!</sup>',
   description: 'Interesting things I want to check out!',
-  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  image: 'https://images.pexels.com/photos/4644812/pexels-photo-4644812.jpeg?cs=srgb&dl=pexels-felix-mittermeier-4644812.jpg&fm=jpg',
   columns: [
     {
       key: 0,
@@ -77,7 +80,7 @@ const lists = [
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    image: 'https://images.pexels.com/photos/4644812/pexels-photo-4644812.jpeg?cs=srgb&dl=pexels-felix-mittermeier-4644812.jpg&fm=jpg',
   },
 ];
 
@@ -146,6 +149,18 @@ const initialStoreData = {
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
+};
+
+export const info = {
+  title: 'Things to do <sup>soon!</sup>',
+  description: 'Interesting things I want to check out!',
+  image: 'https://images.pexels.com/photos/4644812/pexels-photo-4644812.jpeg?cs=srgb&dl=pexels-felix-mittermeier-4644812.jpg&fm=jpg', 
+};
+
+export const faq = {
+  title: 'Things to do <sup>soon!</sup>',
+  description: 'Interesting things I want to check out!',
+  image: 'https://images.pexels.com/photos/4644812/pexels-photo-4644812.jpeg?cs=srgb&dl=pexels-felix-mittermeier-4644812.jpg&fm=jpg', 
 };
 
 export default initialStoreData;
