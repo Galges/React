@@ -82,6 +82,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'https://images.pexels.com/photos/4644812/pexels-photo-4644812.jpeg?cs=srgb&dl=pexels-felix-mittermeier-4644812.jpg&fm=jpg',
   },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>soon!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://images.pexels.com/photos/4644812/pexels-photo-4644812.jpeg?cs=srgb&dl=pexels-felix-mittermeier-4644812.jpg&fm=jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to do <sup>soon!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://images.pexels.com/photos/4644812/pexels-photo-4644812.jpeg?cs=srgb&dl=pexels-felix-mittermeier-4644812.jpg&fm=jpg',
+  },
 ];
 
 const columns = [
